@@ -107,12 +107,12 @@ header .navbar a:hover{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background:url(../images/kuwe.jpg) no-repeat;
+  background:url(./images/bcrs.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
 
+}
 .home .content span{
   font-size: 3rem;
   color:rgb(11, 11, 7);
@@ -124,7 +124,8 @@ header .navbar a:hover{
   width:60rem;
 }
 
-.step-container{
+/* pmbukkn */
+/* .step-container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -156,12 +157,15 @@ header .navbar a:hover{
   font-size: 1.5rem;
   color:#666;
   padding:1rem 0;
-}
+} */
+/* pmbukkn  end*/
 
 .peoples .heading img{
   height: 50px;
 }
-
+.peoples .heading h1{
+  font-size: 25px;
+}
 .peoples .row{
   display: flex;
 }
@@ -259,49 +263,6 @@ header .navbar a:hover{
 .family .box-container .box .share a:hover{
   color:#fff;
   background: var(--pink);
-}
-
-.contact form{
-  padding:2rem;
-  background: #fff;
-  border-radius: .5rem;
-  box-shadow:0 .5rem 1rem rgba(0,0,0,.9);
-  text-align: center;
-}
-
-.contact form .inputBox{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.contact form .inputBox input, .contact form textarea{
-  border:.2rem solid rgba(0,0,0,.1);
-  font-size: 1.7rem;
-  padding: 1.5rem;
-  margin: 1rem 0;
-  text-transform: none;
-  color:#333;
-}
-
-.contact form .inputBox input{
-  width:49%;
-}
-
-.contact form textarea{
-  height: 15rem;
-  width:100%;
-  resize: none;
-}
-
-.contact form .inputBox input::placeholder,
-.contact form textarea::placeholder{
-  text-transform: capitalize;
-}
-
-.contact form .inputBox input:focus,
-.contact form textarea:focus{
-  border-color: var(--pink);
 }
 
 .blog .box-container{
@@ -454,6 +415,16 @@ header .navbar a:hover{
   .contact form .inputBox input{
     width:100%;
   }
+  .home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(./images/bcrs.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+  }
 
 }
 
@@ -465,3 +436,4 @@ header .navbar a:hover{
   }
 
 }
+
